@@ -1,0 +1,204 @@
+{
+  "id": "sigf/supercraft-superhot-overwatch-mod-7",
+  "version": "1.0.0",
+  "name": "SUPERCRAFT, mod 7: SUPERHOT × Overwatch",
+  "tagline": "SUPERHOT, mixed with a new game every time. Time only moves when you move, and each mod adds a funny twist the AI comes up with. This time, mix in Overwatch with a funny twist of your own.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "superhot",
+      "role": "host",
+      "engine": "SUPERHOT (itch build, Unity 2020.3.24f1 Mono, 64-bit, game exe SH.exe) + BepInEx 5.4.23.2 x64 C# plugin (net472)"
+    },
+    {
+      "game": "overwatch",
+      "role": "guest",
+      "label": "Overwatch",
+      "canonical": false
+    }
+  ],
+  "requires": [
+    {
+      "id": "bepinex"
+    }
+  ],
+  "install": [
+    {
+      "game": "superhot",
+      "strategy": "profile",
+      "files": [
+        {
+          "src": "supercraft-superhot-overwatch-mod-7.zip",
+          "dst": "{game}",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/fx/hex.png",
+              "sha256": "2cd96f1a09e45cc26f9fb94521939cabb708a3e0fd367385786998dbcbb573b7"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/bell.wav",
+              "sha256": "e40e5f73778c1589e60a57540bf75900e725098491d4e403a664b9a148747b46"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/blink.wav",
+              "sha256": "66941e0ad49e2b56142fbf73599fdfd00e77aa89560f529637329718fd1b0edf"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/checkpoint.wav",
+              "sha256": "c340ca6a7c9b2e13a5a39dbee1e6e8c5f82de5d5c1720c5722307b0b272018a3"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/explode.wav",
+              "sha256": "7fd598ecb1d710311328d81ad63de9c3b9451f9a481059d438c4e0c9de05e2c3"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/heal.wav",
+              "sha256": "af0a2d86af310b218e0ab1c908985bd921f54edaa8f2ed6a44d7cb1851334024"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/hit.wav",
+              "sha256": "97c58e26719cfb42d161d2ebef5022797c4d1683e50956d91703988c52325a00"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/kill.wav",
+              "sha256": "cf99a1c64e242ead1ef43687069f304003970eaa2e5446af4020bb51a9ad8237"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/payload.wav",
+              "sha256": "184fc738d0e52953693ca10d35641296f39271a9953f43498526fa66d7cb87a8"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/revive.wav",
+              "sha256": "cd11f17f7c1c0d88065929a53e9ec719e11ca5e6614f363b65b6ff7b156bb31a"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/revolver.wav",
+              "sha256": "d995d64d18a7e600bf0513e998dd6d8469a8a98c3a200c560f53ea479ec563fa"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/shieldbreak.wav",
+              "sha256": "21f418238eb6e054080df64ee6a651a8ee1df7d4aab7d6845913855c73f5d47a"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/shieldhit.wav",
+              "sha256": "3b300b1e01a17575b2602d803560a6827aa62cdd3347d5c093d22e2db41a9233"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/ultready.wav",
+              "sha256": "5fc77928d608879f55f033a73473904216c48347cd2235e14796916f6a8ecdcf"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/victory.wav",
+              "sha256": "ec78711b262436d29a002cdcf9fc7ca5b11b52d47fc3b76baad5b74ff9133e6c"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/blink.png",
+              "sha256": "e42d8234fb26b9c04adaa511083cf5420da19c7fc41aacb26382ade3397a7637"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/damage.png",
+              "sha256": "a1ede842177e6b1b8b156d9f77e23b8631f7a8f1d37e03e7d6390c29dc93dc14"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/highnoon.png",
+              "sha256": "6ebfced2c01020d85aede99b3b46586234d4c30cfb80b5d70840a4776ddd2efe"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/medic.png",
+              "sha256": "3971f69ce54c4468d6cacf5596c3dce389604e996d0fbd2f9637f67a4c7aa087"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/payload.png",
+              "sha256": "0f497f185970728f6e823a98aa512d29c66cfe9377ebb52a27f43d59fe370ba0"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/shield.png",
+              "sha256": "af3b2adeae8974c4c214d69b2c1a1026c6abced8271375dee21dccca2a81a510"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/skull.png",
+              "sha256": "e04205c9e84b40f70633a0ff29a4e895741b681f413c55af6b0b0bbe99e1b399"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/star.png",
+              "sha256": "1b2498702ea4e26fe9a1b52cd3dc6322c7f31aa3409cef713d763f07484ceb30"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/watch.png",
+              "sha256": "6e784a2f1365d3c2ad5fbca468a2ec5be2f7e2e8db9c3b865589e874bf11f5bf"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/vo/glassneverdies.wav",
+              "sha256": "3744fab4e231d2e92ac94be1db76f2d539daa7aa2f66c9d358b3721d5710d909"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/vo/highnoon.wav",
+              "sha256": "890fd604dc9aa18dd847523e882fde922abc8c44f030d6057816b6f4b0b6bc7c"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/vo/hotshot.wav",
+              "sha256": "76e75631dee9b483666d4d60f26a0a4b7a45fd05b886a73e27cd484c48efd533"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/vo/needhealing.wav",
+              "sha256": "cd513d6932a67386ebefe3e528e5f03f79d05a2a8331e9edec9cd68e32deaac4"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/vo/payloadmoving.wav",
+              "sha256": "068d9bca070229d2f79cf838f12ab3ed868003209e3be3bf0f19ea49bea61f94"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/vo/potg.wav",
+              "sha256": "8647a0dc9a518507dcdb53d03c9f3757fc8bb47ed4521dc0f3909c116a9266d3"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/vo/victory.wav",
+              "sha256": "5f6d7db1a7927f76915b6b207972b67789f960f1205fe4702563922bbdfba3dc"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/SigfMix.dll",
+              "sha256": "1edfe07cc3bfe4523e2fef6bd04c93e748ab720d89bfab68a975145b39926751"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/SigfMix.pdb",
+              "sha256": "cc3cf6392b301162b1e5717c0dd8e53b5c79a563cfa35e68d8b9907c145f8b4b"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/supercraft-superhot-overwatch-mod-7/releases/download/v1.0.0/supercraft-superhot-overwatch-mod-7.zip",
+          "sha256": "c926be1270ecd927568acaaf0f067809da79d9f479a405c144b38de9fe71407f",
+          "size": 2472995
+        }
+      ],
+      "loader": "bepinex"
+    }
+  ],
+  "launch": [
+    {
+      "game": "superhot",
+      "args": []
+    }
+  ],
+  "files": [
+    {
+      "name": "supercraft-superhot-overwatch-mod-7.zip",
+      "url": "https://github.com/SIGFAI/supercraft-superhot-overwatch-mod-7/releases/download/v1.0.0/supercraft-superhot-overwatch-mod-7.zip",
+      "sha256": "c926be1270ecd927568acaaf0f067809da79d9f479a405c144b38de9fe71407f",
+      "size": 2472995
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/supercraft-superhot-overwatch-mod-7",
+    "license": "MIT"
+  },
+  "media": {},
+  "built_by": {
+    "agent": "SUPERCRAFT"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "superhot",
+    "status": "draft"
+  },
+  "built_at": "2026-10-05T15:27:48.473Z"
+}
