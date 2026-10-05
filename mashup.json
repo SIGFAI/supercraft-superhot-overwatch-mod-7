@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "name": "SUPERCRAFT, mod 7: SUPERHOT × Overwatch",
   "tagline": "SUPERHOT, mixed with a new game every time. Time only moves when you move, and each mod adds a funny twist the AI comes up with. This time, mix in Overwatch with a funny twist of your own.",
+  "how_to_play": [
+    "Escort the payload: stay close to it to push it to the checkpoints while red heroes attack.",
+    "Press Shift to Blink forward (three charges).",
+    "Press Q when your ultimate is ready to unleash High Noon.",
+    "Shoot past the barrier and take out the medic before it rewinds shattered glass."
+  ],
   "kind": "mashup",
   "games": [
     {
